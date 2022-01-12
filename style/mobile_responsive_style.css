@@ -1,0 +1,221 @@
+
+@media only screen and (max-width: 1024px) {
+
+}
+
+@media only screen and (max-width: 770px) {
+    .about:nth-child(1) {
+        height: 80vh;
+    }
+
+    .navbar_container {
+        -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+        justify-content: space-between;
+
+        padding: 0 0px;
+    }
+    .navbar_container .logo {
+        -webkit-box-flex: 1;
+        -ms-flex: 1;
+        flex: 1;
+    }
+    .navbar_container .navbar {
+        -webkit-box-flex: 0;
+        -ms-flex: 0;
+        flex: 0;
+        width: 100%;
+    }
+    .navbar_container .navbar ul {
+        -ms-flex-wrap: nowrap;
+        flex-wrap: nowrap;
+        position: fixed;
+        left: 100%;
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+        flex-direction: column;
+        background: #ffffff;
+        width: 100%;
+        height: 100%;
+        overflow: auto;
+        -webkit-transition: left 0.3s;
+        -o-transition: left 0.3s;
+        transition: left 0.3s;
+    }
+    .navbar_container .navbar ul li {
+        padding: 10px;
+        font-size: 16px;
+        height: auto;
+        line-height: normal;
+        color: #555555;
+    }
+    .navbar_container .navbar ul li:hover {
+        color: #555555;
+    }
+    .navbar_container .navbar ul .close {
+        display: block;
+    }
+    .navbar_container .navbar .icon-bar {
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+    }
+    .navbar_container .navbar ._Menus-show {
+        left: 0;
+    }
+
+    .showcase_content {
+        margin: 0;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .showcase_content .content {
+        padding: 10% 0;
+    }
+
+    .showcase_content .content h1{
+        font-size: 2.5rem;
+    }
+
+    .wallet_information h1 {
+        padding-top: 50px;
+        padding-bottom: 20px;
+        font-size: 1.75rem;
+    }
+
+    .wallet_container {
+        display: none;
+        /* margin: 75px 0; */
+    }
+
+    .mobile_wallet_content {
+        display: block;
+        word-wrap: break-word;
+
+        background: linear-gradient(rgba(0,0,0,0.75),rgba(0,0,0,0.5)), url("../img/cheetah_colorful_pattern.jpg") no-repeat center center/cover;
+        padding: 3% 10px;
+    }
+
+    .mobile_wallet_content a {
+        color: white;
+    }
+
+    .flip-card {
+        width: 100%;
+        height: 250px;
+    }
+
+    /* Place the timelime to the left */
+    .timeline::after {
+        left: 31px;
+    }
+
+    /* Full-width containers */
+    .timeline .container {
+        width: 100%;
+        padding-left: 70px;
+        padding-right: 25px;
+    }
+
+    /* Make sure that all arrows are pointing leftwards */
+    .timeline .container::before {
+        left: 60px;
+        border: medium solid white;
+        border-width: 10px 10px 10px 0;
+        border-color: transparent white transparent transparent;
+    }
+
+    .timeline .container::after {
+        width: 35px;
+        height: 35px;
+    }
+
+    /* Make sure all circles are at the same spot */
+    .left::after,
+    .right::after {
+        left: 15px;
+    }
+
+    /* Make all right containers behave like the left ones */
+    .right {
+        left: 0%;
+    }
+
+    .roadmap {
+        padding: 5% 0;
+    }
+
+    .timeline .roadmap_content {
+        padding: 10px 15px;
+    }
+
+    .timeline .roadmap_content h2 {
+        font-size: 1.5rem;
+    }
+
+    .timeline .roadmap_content p {
+        font-size: 12px;
+    }
+
+    .timeline .container {
+        padding: 10px 40px;
+        padding-right: 0;
+    }
+    .icons {
+        margin-left: 35%;
+    }
+
+    .icon {
+        margin: 0 5px;
+    }
+    .icon img {
+        width: 50px;
+    }
+
+    .about_us {
+        
+        height: 100%;
+
+        font-size: 12.5px;
+    }
+
+    .about_us h1 {
+        font-size: 2.25rem;
+    }
+
+    .about_us_container {
+        flex-wrap: wrap;
+    }
+
+    .about_us_img {
+        width: 100%;
+        margin: 5%;
+    }
+
+    .about_us_content {
+        width: 100%;
+        font-size: 12.5px;
+    }
+
+    .why_wmt_container {
+        flex-wrap: wrap;
+        height: 100%;
+    }
+
+    .why_wmt_content, .why_wmt_chart {
+        width: 100%;
+    }
+
+    .token_distribution h1 {
+        font-size: 2.25rem;
+    }
+
+    .token_distribution_content {
+        width: 100%;
+    }
+
+}
